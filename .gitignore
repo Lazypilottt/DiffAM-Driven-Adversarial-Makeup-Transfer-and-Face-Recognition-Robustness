@@ -1,0 +1,25 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.ruff_cache/
+.venv/
+venv/
+
+# Upstream code, weights and data (fetched by scripts/setup_diffam.sh)
+third_party/
+pretrained/
+checkpoint/
+reference_pool/
+cache/
+runs/
+*.pth
+*.pt
+*.ckpt
+*.npz
+*.zip
+
+# Notebooks / OS
+.ipynb_checkpoints/
+.DS_Store
